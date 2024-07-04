@@ -49,7 +49,7 @@ const About = () => {
             className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
           >
             I'm a skilled software developer with experience in C# and unity for game development, Tailwind CSS and
-            JavaScript, and expertise in frameworks like React and Node.js for web development. I'm a quick learner and collaborate closely with clients to
+            JavaScript, and expertise in frameworks like React and Node.js for web development and wordpress for content management systems. I'm a quick learner and collaborate closely with clients to
             create efficient, scalable, and user-friendly solutions that solve
             real-world problems. Let's work together to bring your ideas to life!
           </motion.p>
