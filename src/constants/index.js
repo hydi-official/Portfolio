@@ -92,14 +92,14 @@ import Edwin from '../assets/Edwin.png'
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
