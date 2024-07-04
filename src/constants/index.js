@@ -17,13 +17,21 @@ import {
     tesla,
     shopify,
     carrent,
+    Wordpress,
     jobit,
     tripguide,
     threejs,
     cSharp,
     unity,
   } from "../assets";
-  
+import ecommerce from '../assets/E-cmmerce.png' ;
+import NGO from '../assets/NGO.png';
+import Doc from '../assets/Doc.png'  
+import Edwin from '../assets/Edwin.png'  
+
+
+
+
   export const navLinks = [
     {
       id: "about",
@@ -97,6 +105,10 @@ import {
       icon: threejs,
     },
     {
+      name: "Wordpress",
+      icon: Wordpress,
+    },
+    {
       name: "git",
       icon: git,
     },
@@ -144,16 +156,15 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Mern Stack",
-      icon: nodejs,
+      title: "Content Mangement System,",
+      company_name: "Wordpress",
+      icon: Wordpress,
       iconBg: "#E6DEDD",
-      date: "Oct 2023 - Present",
+      date: "June 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js, Tailwind CSS, C# ASP.Net, Node JS.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created a CMS and website for Naaban's Foundation NGO, enhancing the organization’s online presence and streamlining content management.",
+        "Implemented various features to support the NGO's activities, including event management, donation processing, and volunteer coordination",
+        "Continuously manage and update the NGO’s website to ensure smooth operation and engagement with stakeholders."
       ],
     },
 
@@ -162,108 +173,112 @@ import {
       company_name: "Unity",
       icon: unity,
       iconBg: "#E6DEDD",
-      date: "Oct 2023 - present",
+      date: "Oct 2023 - May 2024",
       points: [
         "Individually developed a captivating first-person shooter game in Unity, optimizing game mechanics and interactions using C#.",
        "Leveraged built-in assets from the Unity Asset Store to create dynamic environments, challenging adversaries, and engaging gameplay.",
       ],
     },
 
+    {
+      title: "UI/UX Designer",
+      company_name: "Figma",
+      icon: figma,
+      iconBg: "#E6DEDD",
+      date: "May 2024 - Present",
+      points: [
+        " Working collaboratively with a team to design and develop a comprehensive e-commerce website for a client",
+       "Leveraging tools like Figma to create and iterate on design concepts",
+      ],
+    },
+
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+    const testimonials = [
+      {
+        testimonial:
+          "Essel designed and developed a user-friendly interface that exceeded our expectations.",
+        name: "Sara Lee",
+        designation: "Client",
+        company: "Mr Mintah",
+        image: "",
+      },
+      {
+        testimonial:
+          "Essel's attention to detail and dedication to our project made a significant impact on our success.",
+        name: "Edwin Nuer",
+        designation: "Developer",
+        company: "NCR",
+        image: Edwin,
+      },
+      {
+        testimonial:
+          "After Essel optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        name: "Vincent Oppong ",
+        designation: "I.T Specialist",
+        company: "Inspire Technologies",
+        image: "",
+      },
+    ];
+    
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "E-Commerce",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to browse, purchase, and manage a variety of products from different categories, providing a convenient and comprehensive shopping experience",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
+       
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-      demo_link: "http://www.demo.com" ,
+      image: ecommerce,
+      source_code_link: "https://github.com/hydi-official/HCI.git",
+      demo_link: "https://hci-rosy.vercel.app/" ,
     },
     {
-      name: "Job IT",
+      name: "NGO",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        " Web application that allows users to learn about the foundation's mission, participate in events, and make donations, providing a centralized and engaging solution for supporting the NGO's initiatives.",
+      tags: [
+        {
+          name: "wordpress",
+          color: "blue-text-gradient",
+        },
+      
+      ],
+      image: NGO,
+      source_code_link: "https://github.com/",
+      demo_link: "https://naabans.org/" ,
+    },
+
+    {
+      name: "Health Care Management",
+      description:
+        "Comprehensive online platform that allows users to search for healthcare providers, book appointments with doctors, and access medical services, offering curated recommendations for specialized healthcare needs.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-      demo_link: "http://www.demo.com" ,
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-      demo_link: "http://www.demo.com" ,
+      image: Doc,
+      source_code_link: "https://github.com/hydi-official/Doctor-Frontend.git",
+      demo_link: "https://doctor-frontend-orcin.vercel.app/" ,
     },
   ];
   
