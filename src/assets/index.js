@@ -21,7 +21,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import expo from './expo.jpg'
+import firebase from './firebase.png';
+import reactnative from './reactnative.jpg';
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -61,4 +63,8 @@ export {
   tripguide,
   unity,
   cSharp,
+  reactnative,
+  expo,
+  firebase,
+ 
 };
