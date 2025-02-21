@@ -27,14 +27,14 @@ import {
     expo,
     firebase,
   } from "../assets";
-import ecommerce from '../assets/E-cmmerce.png' ;
-import NGO from '../assets/NGO.png';
+import ecommerce from '../assets/ch.jpg' ;
+import NGO from '../assets/naabans.png';
 import Doc from '../assets/Doc.png'  
 import Edwin from '../assets/Edwin.png'  
 import real from '../assets/realestate.png';
 import ecom from '../assets/ecom.png';
 import diaspora from '../assets/dispora.png';
-
+import quit from '../assets/qui.jpg';
 
 
 
@@ -400,6 +400,24 @@ import diaspora from '../assets/dispora.png';
         image: diaspora, // Add an image for this project if you have one
         source_code_link: "https://github.com/hydi-official/GH-Diaspora-Support.git", // Update with your repository link
         demo_link: "https://ghdiasporasupport.com", // Add the demo link
+      },
+      {
+        name: "Quit X",
+        description:
+          "A quit smoking app built with React Native and Firebase, designed to help users track their progress, set goals, and access resources to quit smoking effectively. The app includes features like habit tracking, motivational reminders, and community support.",
+        tags: [
+          {
+            name: "react native",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "firebase",
+            color: "green-text-gradient",
+          },
+        ],
+        image: quit, // Add an image for this project if you have one
+        source_code_link: "https://github.com/hydi-official/Persuasive.git", // Update with your repository link
+        demo_link: "https://quitx-app.com", // Add the demo link
       },
     ];
     
