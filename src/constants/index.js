@@ -34,7 +34,7 @@ import Edwin from '../assets/Edwin.png'
 import real from '../assets/realestate.png';
 import ecom from '../assets/ecom.png';
 import diaspora from '../assets/dispora.png';
-import quit from '../assets/qui.jpg';
+import quit from '../assets/qui1.jpg';
 
 
 
